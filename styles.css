@@ -1,4 +1,33 @@
 body {
   margin: 0;
   min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: #3d2a3f;
+  border-left: 350px solid #3d2a3f;
+  border-right: 350px solid #3d2a3f;
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  align-items: center;
+  font-size: 18px;
+}
+.text {
+  color: white;
+}
+.logo {
+  margin-right: auto;
 }
