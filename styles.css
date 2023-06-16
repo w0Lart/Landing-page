@@ -2,6 +2,8 @@ body {
   margin: 0;
   min-height: 100vh;
   font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 html {
@@ -17,17 +19,85 @@ a {
 
 .header {
   background-color: #3d2a3f;
-  border-left: 350px solid #3d2a3f;
-  border-right: 350px solid #3d2a3f;
+  padding-right: 350px;
+  padding-left: 350px;
   display: flex;
   justify-content: flex-end;
   gap: 15px;
   align-items: center;
   font-size: 18px;
+  flex: 1 0 auto;
 }
 .text {
   color: white;
 }
+.text:hover{
+  color: orange;
+}
 .logo {
   margin-right: auto;
+}
+
+.second {
+  background-color: #3d2a3f;
+  padding-right: 350px;
+  padding-left: 350px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.secondtext{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+  font-size: 18px;
+  flex-basis: 600px;
+  flex-shrink: 0;
+}
+
+.header2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.button1 {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.stylish {
+  border: 7px solid orange;
+  border-radius: 10px;
+}
+
+#headthird {
+  font-size: 36px;
+  font-weight: 800;
+  color:#3d2a3f;
+}
+
+
+.third {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  text-align: center;
+  color: #3d2a3f;
+}
+
+.subthird {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
 }

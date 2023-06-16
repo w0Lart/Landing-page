@@ -5,3 +5,7 @@ The main goal is to practice CSS skills that i got in previous TOP lessons:
 - applying some styles on the HTML;
 - using flexbox to aligning elements on a page;
 - trying to add some creativity to the page.
+
+Pics with free license usage i grab from websites:
+https://www.freepik.com/
+https://www.pinterest.com/
