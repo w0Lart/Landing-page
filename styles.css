@@ -4,6 +4,7 @@ body {
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 html {
@@ -42,14 +43,14 @@ a {
 
 .second {
   background-color: #3d2a3f;
-  padding-right: 350px;
-  padding-left: 350px;
+  justify-content: center;
   padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
   align-items: center;
   gap: 100px;
-  flex:1;
+  flex-shrink: 2;
+  flex-wrap: wrap;
 }
 
 .secondtext{
@@ -59,7 +60,7 @@ a {
   color: white;
   font-size: 18px;
   flex-basis: 600px;
-  flex-shrink: 0;
+  flex-shrink: 1;
 }
 
 .header2 {
@@ -109,12 +110,11 @@ a {
 .fourth {
   display: flex;
   justify-content: center;
-  padding-left: 550px;
-  padding-right: 550px;
+  align-items: center;
   padding-top: 130px;
   padding-bottom: 130px;
   background-color: #e5e7eb;
-  flex-wrap: nowrap;
+  flex:1;
 }
 
 .textf {
@@ -129,6 +129,7 @@ a {
   flex-direction: column;
   flex-shrink: 0;
   max-width: 700px;
+  flex: 1 1 0;
 }
 
 .textff {
@@ -139,7 +140,10 @@ a {
 .fifth {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 100px 0;
+  flex: 1 1 0;
+  flex-wrap: wrap;
 }
 
 .subfifth {
@@ -152,7 +156,7 @@ a {
   background-color: orange;
   color: white;
   font-weight:500;
-  flex-shrink: 0;
+  flex-shrink: 1;
 }
 
 .fancyb {
